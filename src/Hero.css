@@ -1,0 +1,151 @@
+:root{
+
+    --font:"Dancing Script", cursive;
+    --color-back:#d1d7af;
+    --grey:  #777777;
+    --but-back: rgb(87, 5, 108);
+   
+}
+
+*{
+
+    font-family: "Dancing Script", cursive;
+    border: 1px  ;
+    border-color:transparent;
+    border-style: solid
+
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Lugrasimo&family=Recursive:wght@300..1000&display=swap');
+body{
+
+   /* overflow-x: hidden; */
+}
+
+.hero{
+text-decoration:none;
+    color: black;
+    font-size: 100px;
+    
+}
+
+
+.hero{
+
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    top: -300px;
+    left: 120px;
+
+}
+.abc{
+    padding-top: 50px;
+    /* height: 700px; */
+    width: 100px;
+}
+
+#aboutus{
+   
+    background-image: url(../src/Images/illustration/join-us.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    height: 650px;
+  
+}
+
+.heading{
+    height: 60px;
+    background-color: var(--color-back);
+}
+.but{
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-left: 4px solid var(--color-back);
+    background-color: var(--but-back);
+    transition: all 0.5s ease;
+    position: relative;
+    z-index: 9;
+}
+
+
+.member a{
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    
+}
+.member,.txt-main{
+    transition: all 0.5s ease;
+}
+.member:hover,.txt-main:hover{
+    background-color: rgb(244, 251, 43);
+}
+#fitness{
+    font-family: "Dancing Script", cursive;
+    background-image: url(../src/Images/illustration/gallery2.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-right: 90px;
+    height: 540px;
+    width: 95% ;
+   
+}
+
+#Features{
+    background-image: url(../src/Images/Background/breadcum.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-right: 200px;
+    height: 530px;
+  
+}
+
+#BLOG{
+    
+    background-image: url(../src/Images/Background/breadcum.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    height: 500px;
+}
+
+
+#Gallery{
+    
+    background-image: url(../src/Images/illustration/ourshop.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-right: 200px;
+    height: 430px;
+   
+}
+ #footer{
+   
+    background-image: url(../src/Images/Background/home-slider-bg.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-right: 90px;
+    height: 620px;
+    width: 100%;
+   
+}
+.nav{
+    background-image:linear-gradient(to right,  #3e4d51, #8ed8d4); 
+}
+
+ 
